@@ -1,0 +1,553 @@
+{
+  "common": {
+    "loading": "Carregando...",
+    "loadingShort": "Carregando…",
+    "saving": "Salvando…",
+    "sending": "Enviando…",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "back": "Voltar",
+    "next": "Próximo",
+    "previous": "Anterior",
+    "search": "Buscar",
+    "close": "Fechar",
+    "confirm": "Confirmar",
+    "yes": "Sim",
+    "no": "Não",
+    "error": "Erro",
+    "success": "Sucesso",
+    "language": "Idioma",
+    "selectLanguage": "Selecionar idioma",
+    "backToTop": "Voltar ao topo",
+    "backToTopShort": "Topo",
+    "apply": "Aplicar",
+    "selected": "Selecionado",
+    "recommended": "Recomendado",
+    "copy": "Copiar",
+    "copied": "Copiado!",
+    "tryAgain": "Tentar novamente",
+    "backHome": "Voltar ao início",
+    "backToSite": "Voltar ao site",
+    "needHelp": "Precisa de ajuda?",
+    "continue": "Continuar"
+  },
+  "header": {
+    "experience": "Experiência",
+    "lodging": "Hospedagem",
+    "feedback": "Feedback",
+    "blog": "Blog",
+    "contact": "Contato",
+    "faq": "FAQ",
+    "gallery": "Galeria",
+    "myAccount": "Minha conta",
+    "signIn": "Entrar",
+    "signUp": "Cadastre-se",
+    "ctaPackage": "Garanta seu pacote",
+    "openMenu": "Abrir menu"
+  },
+  "footer": {
+    "tagline": "Onde o festival continua",
+    "rights": "Todos os direitos reservados",
+    "company": "Empresa",
+    "support": "Suporte",
+    "legal": "Legal",
+    "home": "Início",
+    "blog": "Blog",
+    "talkToUs": "Fale conosco",
+    "email": "E-mail",
+    "instagram": "Instagram",
+    "privacy": "Privacidade",
+    "terms": "Termos de Uso",
+    "imageRights": "Direito de Imagem",
+    "cookies": "Cookies",
+    "description": "Hospedagem completa e imersiva para o Tomorrowland Brasil. Onde o festival continua — com conforto, comunidade e a sensação de lar.",
+    "ctaWhatsApp": "Fale com a Way Home",
+    "trustBadgeTitle": "Empresa registrada",
+    "trustBadgeName": "Cadastur ativo",
+    "trustBadgeDesc": "Operadora de turismo regularizada junto ao Ministério do Turismo.",
+    "trustBadgeArea": "Atendimento online em todo o Brasil.",
+    "brandTag": "Way Home — onde o festival continua.",
+    "developedBy": "Desenvolvido por"
+  },
+  "auth": {
+    "email": "E-mail",
+    "password": "Senha",
+    "newPassword": "Nova senha",
+    "confirmPassword": "Confirmar senha",
+    "confirmNewPassword": "Confirmar nova senha",
+    "fullName": "Nome completo",
+    "namePlaceholder": "Como devemos te chamar",
+    "emailPlaceholder": "voce@email.com",
+    "passwordMin": "Mínimo 8 caracteres",
+    "forgotPassword": "Esqueci minha senha",
+    "signIn": "Entrar",
+    "signUp": "Criar conta",
+    "signingIn": "Entrando…",
+    "signingUp": "Criando conta…",
+    "createNow": "Criar agora",
+    "noAccount": "Não tem conta?",
+    "hasAccount": "Já tem conta?",
+    "loginTitle": "Entrar",
+    "loginSubtitle": "Bem-vindo de volta. Sua casa Tomorrowland te aguarda.",
+    "signupTitle": "Criar conta",
+    "signupSubtitle": "Sua próxima edição do Tomorrowland começa por aqui.",
+    "signupTerms": "Ao criar conta você concorda com nossos termos de uso e política de privacidade.",
+    "signupSuccess": "Conta criada! Verifique seu e-mail para confirmar.",
+    "invalidCredentials": "E-mail ou senha incorretos.",
+    "invalidData": "Dados inválidos",
+    "invalidEmail": "E-mail inválido",
+    "passwordMin6": "Senha mínima de 6 caracteres",
+    "passwordMin8": "Senha mínima de 8 caracteres",
+    "passwordsDontMatch": "As senhas não coincidem",
+    "nameRequired": "Informe seu nome",
+    "strength": "Força",
+    "resetTitle": "Nova senha",
+    "resetSubtitle": "Escolha uma senha forte para proteger sua conta.",
+    "resetCta": "Salvar nova senha",
+    "backToLogin": "Voltar ao login"
+  },
+  "account": {
+    "sidebar": {
+      "home": "Início",
+      "orders": "Pedidos",
+      "groups": "Grupos Galera",
+      "notices": "Avisos",
+      "profile": "Perfil",
+      "security": "Segurança",
+      "privacy": "Privacidade",
+      "adminPanel": "Painel Admin",
+      "logout": "Sair",
+      "admin": "Admin",
+      "more": "Mais",
+      "notifications": "Notificações",
+      "backToSite": "Voltar ao site"
+    },
+    "dashboard": {
+      "hello": "Olá,",
+      "welcomeBack": "Bem-vindo de volta à sua casa Tomorrowland.",
+      "orders": "Pedidos",
+      "totalSpent": "Total investido",
+      "paidOrders": "Pedidos pagos",
+      "lastOrder": "Último pedido",
+      "ctaTitle": "Pronto para uma nova edição?",
+      "ctaDesc": "Confira os pacotes disponíveis para o Tomorrowland Brasil.",
+      "ctaButton": "Ver pacotes",
+      "myOrdersTitle": "Meus pedidos",
+      "myOrdersDesc": "Veja recibos e status de pagamento",
+      "myProfileTitle": "Meu perfil",
+      "myProfileDesc": "Atualize seus dados de cadastro"
+    },
+    "profile": {
+      "title": "Meu perfil",
+      "subtitle": "Mantenha seus dados sempre atualizados.",
+      "displayName": "Nome de exibição",
+      "fullName": "Nome completo",
+      "phone": "WhatsApp",
+      "phonePlaceholder": "+55 11 99999-9999",
+      "phoneSecondary": "WhatsApp adicional",
+      "addPhone": "+ Adicionar outro WhatsApp",
+      "removePhone": "Remover",
+      "save": "Salvar alterações",
+      "saving": "Salvando…",
+      "uploading": "Enviando…",
+      "updated": "Perfil atualizado",
+      "photoUpdated": "Foto atualizada"
+    },
+    "security": {
+      "title": "Segurança",
+      "subtitle": "Mantenha sua conta protegida.",
+      "changePassword": "Alterar senha",
+      "newPassword": "Nova senha",
+      "confirmNewPassword": "Confirmar nova senha",
+      "updatePassword": "Atualizar senha",
+      "passwordUpdated": "Senha atualizada",
+      "changeEmail": "Alterar e-mail",
+      "requestChange": "Solicitar alteração",
+      "emailConfirmHint": "Você receberá um link de confirmação no novo e-mail.",
+      "emailConfirmSent": "Confirme a alteração no seu novo e-mail",
+      "twoFactor": "Verificação em duas etapas (2FA)",
+      "twoFactorOnDesc": "Sua conta está protegida com TOTP (Google Authenticator, Authy, 1Password).",
+      "twoFactorOffDesc": "Adicione uma camada extra de segurança usando um app autenticador.",
+      "deactivate": "Desativar",
+      "preparing": "Preparando…",
+      "activate2fa": "Ativar 2FA",
+      "scanStep": "1. Abra seu app autenticador e escaneie o QR Code.",
+      "manualKey": "Ou digite a chave manualmente:",
+      "codeStep": "2. Digite o código de 6 dígitos abaixo:",
+      "codeLabel": "Código do app",
+      "verifying": "Verificando…",
+      "confirmActivate": "Confirmar e ativar",
+      "cancel": "Cancelar",
+      "activated": "2FA ativado com sucesso",
+      "deactivated": "2FA desativado",
+      "deactivateConfirm": "Tem certeza que quer desativar a verificação em duas etapas?",
+      "challengeFailed": "Falha ao desafiar 2FA"
+    },
+    "privacy": {
+      "title": "Privacidade e dados",
+      "subtitle": "Seus direitos como titular (LGPD).",
+      "exportTitle": "Baixar meus dados",
+      "exportDesc": "Sua solicitação será registrada e processada em até 15 dias. Dados retidos por obrigação legal (ex.: documentos fiscais, mínimo 5 anos) só são anonimizados após o prazo legal.",
+      "exportCta": "Baixar arquivo .json",
+      "exportStarted": "Download iniciado",
+      "deleteTitle": "Solicitar exclusão de conta",
+      "deletePlaceholder": "Digite \"EXCLUIR\" para confirmar",
+      "deleteCta": "Solicitar exclusão",
+      "deleteRequireConfirm": "Digite EXCLUIR para confirmar",
+      "deleteKeyword": "EXCLUIR",
+      "deleteRegistered": "Solicitação registrada. Nossa equipe finalizará em até 15 dias."
+    },
+    "notifications": {
+      "title": "Notificações",
+      "allRead": "Tudo em dia.",
+      "unreadOne": "{{n}} não lida",
+      "unreadMany": "{{n}} não lidas",
+      "markAllRead": "Marcar todas como lidas",
+      "empty": "Você ainda não recebeu notificações.",
+      "viewDetails": "Ver detalhes"
+    },
+    "orders": {
+      "title": "Meus pedidos",
+      "subtitle": "Histórico completo de compras e pagamentos.",
+      "empty": "Nenhum pedido ainda",
+      "emptyDesc": "Quando você comprar um pacote, ele aparecerá aqui.",
+      "status": {
+        "paid": "Pago",
+        "pending": "Pendente",
+        "failed": "Falhou",
+        "canceled": "Cancelado",
+        "refunded": "Reembolsado"
+      }
+    },
+    "more": {
+      "title": "Mais opções"
+    }
+  },
+  "sections": {
+    "hero": {
+      "line1": "SUA CASA",
+      "line2a": "NO ",
+      "line2b": "TOMORROWLAND",
+      "line3": "BRASIL 2027",
+      "cta": "Garanta seu pacote agora",
+      "subtitle": "Way Home: hospedagem completa e experiências únicas no Tomorrowland Brasil.",
+      "social": "Muitos <b>sorrisos</b>, <b>memórias</b> e <b>conexões</b> já passaram por aqui."
+    },
+    "lodging": {
+      "eyebrow": "Hospedagem",
+      "titleA": "Encontre o pacote perfeito para sua ",
+      "titleB": "experiência",
+      "titleC": " no Tomorrowland",
+      "desc": "Escolha entre nossas opções de hospedagem e viva o festival com conforto, praticidade e segurança. Cada pacote é pensado para tornar sua experiência inesquecível!",
+      "perPerson": "Valor por pessoa",
+      "perCouple": "por casal",
+      "book": "Reservar",
+      "talkOnWhatsapp": "Falar no WhatsApp",
+      "recommended": "Recomendado",
+      "available": "Disponível",
+      "onRequest": "Sob consulta",
+      "loading": "Carregando pacotes...",
+      "soldOut": "Sold Out",
+      "lastSpots": "Últimas vagas",
+      "included": "O que está incluso",
+      "learnMore": "Saiba mais",
+      "exhausted": "Esgotado",
+      "suite": {
+        "name": "Quarto Suíte",
+        "capacity": "Até 5 pessoas",
+        "bathroom": "Banheiro compartilhado apenas entre ocupantes do quarto",
+        "altPrice": "Valor por pessoa sem transfer: R$ 1.300"
+      },
+      "camping": {
+        "name": "Camping",
+        "capacity": "Área delimitada para barracas",
+        "bathroom": "Banheiro coletivo exclusivo para campistas",
+        "altPrice": "Valor por pessoa sem transfer: R$ 800"
+      },
+      "includes": {
+        "lodging": "Hospedagem",
+        "campingLodging": "Hospedagem em camping",
+        "transfer": "Transfer",
+        "snacks": "Lanches noturnos",
+        "kit": "Kit Exclusivo Way Home",
+        "hygiene": "Kits de Higiene",
+        "pool": "Acesso à piscina e áreas comuns",
+        "interactions": "Todas interações do evento"
+      }
+    },
+    "experience": {
+      "eyebrow": "Experiência",
+      "titleA": "Por que escolher a ",
+      "titleB": "Way Home?",
+      "desc": "A Way Home oferece hospedagem personalizada e serviços exclusivos para transformar sua experiência no Tomorrowland Brasil.",
+      "cards": {
+        "comfort": {
+          "title": "Hospedagem Confortável",
+          "text": "Quartos aconchegantes ou espaço para camping com toda a infraestrutura."
+        },
+        "transfer": {
+          "title": "Transfer Incluso",
+          "text": "Ida e volta para o festival com pontualidade e segurança."
+        },
+        "continuous": {
+          "title": "Experiência Contínua",
+          "text": "Open Bar, festas exclusivas e ambiente de comunidade."
+        },
+        "breakfast": {
+          "title": "Café da manhã",
+          "text": "Comece seu dia com energia com nosso café da manhã estilo brunch."
+        },
+        "kits": {
+          "title": "Kits Especiais",
+          "text": "Kit redução de danos, kit de higiene básico e muito mais."
+        }
+      },
+      "cta": "Reserve agora"
+    },
+    "feedback": {
+      "eyebrow": "Feedback",
+      "titleA": "O que dizem ",
+      "titleB": "sobre nós?",
+      "desc": "Hóspedes que já viveram a experiência Way Home compartilham suas histórias.",
+      "guest": "Hóspede Way Home",
+      "featured": "Destaque",
+      "watchVideo": "Ver vídeo",
+      "viewAll": "Ver todas as avaliações",
+      "empty": "Em breve, as primeiras avaliações dos nossos hóspedes aparecerão aqui.",
+      "testimonials": [
+        {
+          "name": "Isabela Santos",
+          "quote": "Minha experiência foi muito boa porque me senti muito acolhida e bem recebida, os quartos são maravilhosos e chegamos já com kit redução de danos e brindes. Me senti como se estivesse com a minha família no sítio. Os hosters (Hudson e Letícia) são maravilhosos. Com certeza irei com a Way Home para o Tomorrowland 2025 e outros festivais."
+        },
+        {
+          "name": "Alan Moreira",
+          "quote": "Sem palavras para descrever a minha experiência na Way Home. Café da manhã todos os dias, traslados ao Tomorrowland, galera animada e tudo bem organizado pelos responsáveis. Teve até kit de recuperação. Foi top demais 💯💯"
+        },
+        {
+          "name": "Wendell de Camillo",
+          "quote": "A Tomorrowland pra mim sempre foi um sonho desde mais novo, e poder realizá-la aqui onde nasci e na companhia dos melhores amigos só fez se tornar ainda mais especial. Do momento em que coloquei os pés nas acomodações da Way Home eu pude me sentir em casa. Tudo foi impecável do começo ao fim."
+        },
+        {
+          "name": "Bruna",
+          "quote": "Foi uma experiência muito confortável. O pessoal da Way Home foi muito receptivo, solícito e atencioso para que pudéssemos viver o melhor da festa."
+        },
+        {
+          "name": "Sarah Carvalho",
+          "quote": "Eu indico super a Way Home, minha estadia por lá durante a Tomorrowland foi maravilhosa: pessoas legais, quartos amplos com banheiros individuais, equipe bem animada e organizada. Os brindes Way Home super pensados para evitar perrengues durante o evento. Nota 10!"
+        },
+        {
+          "name": "Helena",
+          "quote": "Só agradecer a Way Home por essa experiência incrível! Vocês pensaram em cada detalhe. Os brindes, kit de boas-vindas, kit redução de danos, café da manhã e lanches ótimos! Quarto com banheiro, limpo e organizado. A paciência, cuidado e comunicação foram excelentes! Obrigada ✨✨"
+        }
+      ]
+    },
+    "campingPromo": {
+      "subtitle": "Camping Way Home",
+      "title": "Faltam poucas vagas!",
+      "desc": "O Tomorrowland está chegando e nosso camping exclusivo quase lotou! Garanta agora a sua vaga e viva o festival em meio à natureza com todo o conforto Way Home:",
+      "cta": "Garanta sua vaga agora"
+    },
+    "location": {
+      "marquee1": "Localização estratégica",
+      "marquee2": "fácil acesso ao evento",
+      "marquee3": "Conforto, praticidade",
+      "marquee4": "e a melhor experiência",
+      "title1": "Localização",
+      "title2": "",
+      "title3": "estratégica",
+      "desc1": "Conforto, praticidade e a melhor experiência,",
+      "desc2": "com acesso facilitado ao festival.",
+      "cta": "Garanta seu pacote agora"
+    },
+    "cadastur": {
+      "title1": "Certificada pelo ",
+      "title2": "Cadastur",
+      "title3": "Cadastro oficial do Ministério do Turismo",
+      "body": "A WayHome é uma empresa cadastrada no Cadastur, o cadastro oficial do Ministério do Turismo. Compromisso com segurança, transparência e profissionalismo em cada experiência.",
+      "alt": "Cadastur — Ministério do Turismo"
+    },
+    "ctaFinal": {
+      "title1": "Garanta sua ",
+      "title2": "hospedagem",
+      "title3": "hoje mesmo!",
+      "desc1": "Way Home – Transformando o Tomorrowland",
+      "desc2": "em uma experiência inesquecível.",
+      "cta": "Reserve agora"
+    }
+  },
+  "about": {
+    "tagline": "A marca",
+    "title1": "Onde o festival",
+    "title2": "continua.",
+    "description": "A Way Home nasceu para proporcionar experiências incríveis em acomodações durante festivais. Somos uma operadora de turismo especializada em hospedagens completas e imersivas para festivais de música eletrônica — com ambiente acolhedor, comunidade e contato com a natureza.",
+    "blocks": {
+      "mission": {
+        "title": "Missão",
+        "body": "Fazer com que todos se sintam em casa, mesmo longe de casa."
+      },
+      "vision": {
+        "title": "Visão",
+        "body": "Alcançar todos os públicos de todos os festivais, com sensação de lar e pertencimento."
+      },
+      "promise": {
+        "title": "Promessa",
+        "body": "Uma extensão da atmosfera vibrante do festival — segurança, conforto e diversão contínua."
+      }
+    },
+    "valuesTitle": "Nossos valores",
+    "values": {
+      "distribution": {
+        "title": "Distribuição",
+        "body": "Trabalho em equipe para entregar a melhor experiência possível aos nossos hóspedes."
+      },
+      "belonging": {
+        "title": "Pertencimento",
+        "body": "Todos os hóspedes fazem parte de uma grande família — valorizados, conectados e bem cuidados."
+      },
+      "atHome": {
+        "title": "Sentir-se em casa",
+        "body": "Cada detalhe é pensado para o seu bem-estar, mesmo longe de casa."
+      }
+    },
+    "readyTitle": "Pronto para uma nova edição?",
+    "readySubtitle": "Confira os pacotes disponíveis para o Tomorrowland Brasil.",
+    "viewPackages": "Ver pacotes",
+    "talkToUs": "Fale conosco"
+  },
+  "contact": {
+    "tagline": "Contato",
+    "title1": "Fala com a",
+    "title2": "Way Home.",
+    "subtitle": "Respondemos rápido por WhatsApp e e-mail.",
+    "channels": {
+      "whatsapp": "Falar agora",
+      "whatsappDesc": "Resposta em minutos",
+      "emailDesc": "Resposta em até 24h",
+      "instagramDesc": "Bastidores e novidades"
+    },
+    "form": {
+      "title": "Mande sua mensagem",
+      "name": "Nome",
+      "email": "E-mail",
+      "message": "Mensagem",
+      "send": "Enviar",
+      "nameError": "Informe seu nome",
+      "emailError": "E-mail inválido",
+      "messageError": "Mensagem muito curta",
+      "checkFields": "Verifique os campos",
+      "openingEmail": "Abrindo seu e-mail…",
+      "phone": "WhatsApp (opcional)",
+      "subject": "Assunto (opcional)",
+      "phonePlaceholder": "(11) 99999-9999",
+      "subjectPlaceholder": "Sobre o que é sua mensagem?",
+      "saved": "Mensagem enviada! Em breve responderemos.",
+      "saveError": "Não foi possível enviar agora. Tente outro canal.",
+      "subjectDefault": "Mensagem do site"
+    }
+  },
+  "faq": {
+    "eyebrow": "Suporte",
+    "title": "Perguntas frequentes",
+    "intro": "Não achou sua resposta?",
+    "talkToUs": "Fale com a gente",
+    "items": [
+      {
+        "q": "O que está incluso no pacote Way Home?",
+        "a": "Hospedagem, transfer ida/volta para o festival, café da manhã e suporte 24h durante a estadia. Detalhes específicos variam por pacote."
+      },
+      {
+        "q": "Como funciona o open bar durante os transfers?",
+        "a": "Servimos bebidas selecionadas (cerveja, vodka, gin, energético, refri e água) durante os deslocamentos para e do festival, sempre com responsabilidade."
+      },
+      {
+        "q": "Posso cancelar e ser reembolsado?",
+        "a": "Sim, dentro de 7 dias da compra (CDC, art. 49) se faltarem mais de 30 dias para o evento. Após esse prazo aplica-se a política específica do pacote, informada no checkout."
+      },
+      {
+        "q": "Como recebo a confirmação?",
+        "a": "Após a aprovação do pagamento você recebe um e-mail com recibo e detalhes. Tudo também fica disponível em Conta → Pedidos."
+      },
+      {
+        "q": "Quais formas de pagamento são aceitas?",
+        "a": "Pix, cartão de crédito (à vista ou parcelado) e boleto via Mercado Pago e parceiros."
+      },
+      {
+        "q": "Crianças podem participar?",
+        "a": "Não — pacotes Way Home seguem a classificação etária do Tomorrowland Brasil (mínimo 18 anos)."
+      },
+      {
+        "q": "Como faço o check-in?",
+        "a": "Apresente um documento com foto na recepção do alojamento. Sua reserva está vinculada ao seu cadastro."
+      },
+      {
+        "q": "E em caso de problema durante o evento?",
+        "a": "Equipe Way Home disponível 24h no alojamento e via WhatsApp. Procure qualquer membro identificado da equipe."
+      }
+    ]
+  },
+  "gallery": {
+    "hero": {
+      "eyebrow": "Galeria Way Home",
+      "title": "A atmosfera do festival,",
+      "titleHighlight": "eternizada em imagens.",
+      "subtitle": "Cada momento, suíte, sorriso e amanhecer. Veja como é viver Tomorrowland com a Way Home."
+    },
+    "videos": {
+      "eyebrow": "Reels & Stories",
+      "title": "Vídeos",
+      "subtitle": "Pequenas histórias gravadas direto da pista do Tomorrowland"
+    },
+    "photos": {
+      "eyebrow": "Catálogo",
+      "title": "Fotos da experiência",
+      "subtitle": "Selecione uma imagem para ampliar e explorar os detalhes."
+    },
+    "controls": {
+      "prev": "Anterior",
+      "next": "Próximo",
+      "close": "Fechar",
+      "videoUnavailable": "Vídeo indisponível",
+      "slide": "Slide",
+      "photoAlt": "Foto"
+    }
+  },
+  "reservation": {
+    "chooseTitle": "Escolha sua modalidade",
+    "chooseSubtitle": "Três jeitos de viver o Way Home. Selecione o que mais combina com você.",
+    "recommended": "Recomendado",
+    "onRequest": "Sob consulta",
+    "customValueWhatsapp": "Valor personalizado via WhatsApp",
+    "continueWithThis": "Continuar com esta",
+    "select": "Selecionar",
+    "pixHint": "💳 Pagamento via Pix mantém o preço original. Cartão pode ter taxas conforme o gateway.",
+    "promoCoupon": "Cupom promocional",
+    "couponApplied": "{{code}} aplicado",
+    "goToPayment": "Ir para o Pagamento",
+    "continueToPayment": "Continuar para Pagamento",
+    "couponInvalid": "Cupom inválido.",
+    "couponReason": {
+      "not_found": "Cupom não encontrado.",
+      "inactive": "Cupom inativo.",
+      "not_started": "Cupom ainda não está em vigor.",
+      "expired": "Cupom expirado.",
+      "max_uses": "Limite de usos do cupom atingido.",
+      "min_order": "Valor mínimo do pedido não atingido para usar este cupom.",
+      "product_mismatch": "Cupom não é válido para este produto."
+    }
+  },
+  "checkoutStatus": {
+    "successTitle": "Pagamento confirmado!",
+    "successDesc": "Em instantes você receberá um e-mail com o recibo e instruções.",
+    "pendingTitle": "Pagamento em análise",
+    "pendingDesc": "Aguardando confirmação do gateway. Você receberá um e-mail assim que aprovado.",
+    "failedTitle": "Pagamento não concluído",
+    "failedDesc": "Algo deu errado ou o pagamento foi cancelado. Tente novamente."
+  },
+  "notFound": {
+    "title": "Caminho não encontrado.",
+    "desc": "A página que você procura saiu da rota. Vamos te levar de volta para casa.",
+    "talk": "Falar com a Way Home"
+  }
+}

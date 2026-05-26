@@ -1,0 +1,1 @@
+GRANT EXECUTE ON FUNCTION public.get_customer_stats(uuid) TO authenticated;

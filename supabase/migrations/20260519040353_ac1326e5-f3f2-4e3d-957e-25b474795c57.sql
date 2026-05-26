@@ -1,0 +1,2 @@
+-- Schema completo Way Home — ver /mnt/documents/wayhome-schema-completo.sql
+-- INLINE_FROM_FILE: /mnt/documents/wayhome-schema-completo.sql

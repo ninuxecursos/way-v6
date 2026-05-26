@@ -1,0 +1,2 @@
+-- See /tmp/consolidated.sql (154KB, 3864 lines, 49 migrations replayed in order)
+-- This placeholder will be replaced by the actual file contents below.

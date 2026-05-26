@@ -1,0 +1,1 @@
+DELETE FROM email_providers WHERE id = 'c08f7c77-f5a1-497e-9f92-271070838db0';

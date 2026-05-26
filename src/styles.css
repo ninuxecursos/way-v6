@@ -1,0 +1,617 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ==========================================================================
+  WAY HOME — Sua Casa no Tomorrowland Brasil
+   Brand color: hot pink #FF195E   |   Background: deep night black
+   Font: Barlow (single family for entire brand — display + body)
+   ========================================================================== */
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: optional;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: optional;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: optional;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: optional;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: optional;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: optional;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: optional;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-ExtraBoldItalic.woff2") format("woff2");
+  font-weight: 800;
+  font-style: italic;
+  font-display: optional;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: optional;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+  font-display: optional;
+}
+
+@theme inline {
+  --font-sans: "Barlow", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Barlow", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-inverse: var(--inverse);
+  --color-inverse-foreground: var(--inverse-foreground);
+}
+
+:root {
+  --radius: 0.75rem;
+
+  --brand: oklch(0.66 0.27 12);          /* ≈ #FF195E */
+  --brand-foreground: oklch(1 0 0);
+
+  --background: oklch(0.08 0.005 20);
+  --foreground: oklch(0.98 0 0);
+  --ink: oklch(0.98 0 0);
+  --ink-soft: oklch(0.78 0.005 20);
+
+  --surface: oklch(0.11 0.006 20);
+  --surface-2: oklch(0.14 0.008 20);
+  --line: oklch(1 0 0 / 10%);
+
+  /* Sempre escuro — usado em heros/seções "ink" para garantir contraste
+     independente do tema (claro/escuro). */
+  --inverse: oklch(0.08 0.005 20);
+  --inverse-foreground: oklch(0.98 0 0);
+
+  --card: var(--surface);
+  --card-foreground: var(--foreground);
+  --popover: var(--surface);
+  --popover-foreground: var(--foreground);
+
+  --primary: var(--brand);
+  --primary-foreground: var(--brand-foreground);
+  --secondary: oklch(0.18 0.01 20);
+  --secondary-foreground: var(--foreground);
+  --muted: oklch(0.16 0.01 20);
+  --muted-foreground: oklch(0.7 0.01 20);
+  --accent: oklch(0.18 0.01 20);
+  --accent-foreground: var(--foreground);
+  --destructive: oklch(0.6 0.24 20);
+  --destructive-foreground: oklch(1 0 0);
+  --border: var(--line);
+  --input: oklch(1 0 0 / 12%);
+  --ring: var(--brand);
+}
+
+.dark {
+  --background: oklch(0.08 0.005 20);
+  --foreground: oklch(0.98 0 0);
+  --ink: oklch(0.98 0 0);
+  --ink-soft: oklch(0.78 0.005 20);
+  --surface: oklch(0.11 0.006 20);
+  --surface-2: oklch(0.14 0.008 20);
+  --line: oklch(1 0 0 / 10%);
+  --card: var(--surface);
+  --popover: var(--surface);
+  --secondary: oklch(0.18 0.01 20);
+  --muted: oklch(0.16 0.01 20);
+  --muted-foreground: oklch(0.7 0.01 20);
+  --accent: oklch(0.18 0.01 20);
+  --border: var(--line);
+  --input: oklch(1 0 0 / 12%);
+}
+
+/* ===== Light theme — Way Home ===== */
+.light {
+  --background: oklch(0.99 0 0);              /* near white */
+  --foreground: oklch(0.16 0.01 20);          /* near #040404 */
+  --ink: oklch(0.16 0.01 20);
+  --ink-soft: oklch(0.42 0.01 20);
+  --surface: oklch(0.98 0.003 20);
+  --surface-2: oklch(0.96 0.005 20);
+  --line: oklch(0.16 0.01 20 / 12%);
+  --card: oklch(1 0 0);
+  --card-foreground: var(--foreground);
+  --popover: oklch(1 0 0);
+  --popover-foreground: var(--foreground);
+  --secondary: oklch(0.95 0.005 20);
+  --secondary-foreground: var(--foreground);
+  --muted: oklch(0.95 0.005 20);
+  --muted-foreground: oklch(0.45 0.01 20);
+  --accent: oklch(0.95 0.005 20);
+  --accent-foreground: var(--foreground);
+  --border: var(--line);
+  --input: oklch(0.16 0.01 20 / 14%);
+  --ring: var(--brand);
+  --brand-foreground: oklch(1 0 0);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: var(--color-brand);
+    color: var(--color-brand-foreground);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+
+  .container-wh {
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+    max-width: 1280px;
+  }
+
+  @media (min-width: 768px) {
+    .container-wh {
+      padding-inline: 2rem;
+    }
+  }
+
+  .btn-brand {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.95rem 1.6rem;
+    border-radius: 999px;
+    background: var(--brand);
+    color: var(--brand-foreground);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition:
+      transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1),
+      box-shadow 0.25s ease,
+      background 0.25s ease;
+    box-shadow: 0 10px 30px -10px color-mix(in oklab, var(--brand) 65%, transparent);
+  }
+  .btn-brand:hover {
+    transform: translateY(-2px);
+    background: color-mix(in oklab, var(--brand) 90%, white 10%);
+    box-shadow: 0 18px 40px -12px color-mix(in oklab, var(--brand) 80%, transparent);
+  }
+
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.85rem 1.4rem;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    color: var(--foreground);
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background: transparent;
+    transition: all 0.25s ease;
+  }
+  .btn-ghost:hover {
+    background: oklch(1 0 0 / 6%);
+    border-color: oklch(1 0 0 / 25%);
+  }
+
+  .btn-white {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.85rem 1.4rem;
+    border-radius: 999px;
+    background: oklch(0.98 0 0);
+    color: oklch(0.1 0 0);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition: all 0.25s ease;
+  }
+  .btn-white:hover {
+    transform: translateY(-2px);
+    background: oklch(0.92 0 0);
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.78rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--brand);
+  }
+  .eyebrow::before {
+    content: "";
+    width: 28px;
+    height: 1px;
+    background: var(--brand);
+    display: inline-block;
+  }
+
+  .heading-display {
+    font-family: var(--font-display);
+    font-weight: 800;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+  }
+
+  .text-italic-brand {
+    font-style: italic;
+    color: var(--brand);
+  }
+
+  .grain::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.06;
+    mix-blend-mode: overlay;
+    background-image: radial-gradient(oklch(1 0 0 / 0.5) 1px, transparent 1px);
+    background-size: 3px 3px;
+  }
+
+  @keyframes wh-marquee {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+  .marquee-track {
+    display: flex;
+    width: max-content;
+    animation: wh-marquee 20.46s linear infinite;
+  }
+  .marquee-track--fast {
+    animation-duration: 17.05s;
+  }
+
+  .card-wh {
+    background: linear-gradient(
+      180deg,
+      oklch(0.13 0.006 20) 0%,
+      oklch(0.1 0.005 20) 100%
+    );
+    border: 1px solid var(--line);
+    border-radius: 1.25rem;
+    transition:
+      transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1),
+      border-color 0.3s ease,
+      box-shadow 0.4s ease;
+  }
+  .card-wh:hover {
+    border-color: color-mix(in oklab, var(--brand) 50%, var(--line));
+    transform: translateY(-4px);
+    box-shadow: 0 30px 60px -30px color-mix(in oklab, var(--brand) 35%, transparent);
+  }
+
+  .photo-vignette {
+    position: relative;
+  }
+  .photo-vignette::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(180deg, transparent 40%, oklch(0.06 0.005 20 / 0.85) 100%),
+      linear-gradient(180deg, oklch(0.06 0.005 20 / 0.35) 0%, transparent 30%);
+    pointer-events: none;
+  }
+}
+
+/* ==========================================================================
+   ADMIN — Neutro corporativo (estilo Stripe / Notion)
+   Escopo: qualquer descendente de [data-admin="true"].
+   Sobrescreve os tokens da marca para um visual sóbrio, denso e profissional
+   sem afetar o site público.
+   ========================================================================== */
+[data-admin="true"] {
+  /* Tipografia mais técnica */
+  --font-sans: "Inter", "Barlow", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, sans-serif;
+
+  /* Raio mais discreto */
+  --radius: 0.5rem;
+
+  /* Cinzas refinados — light */
+  --background: oklch(0.985 0.002 250);
+  --foreground: oklch(0.18 0.01 250);
+  --ink: oklch(0.18 0.01 250);
+  --ink-soft: oklch(0.45 0.01 250);
+
+  --surface: oklch(1 0 0);
+  --surface-2: oklch(0.97 0.003 250);
+  --line: oklch(0.18 0.01 250 / 10%);
+
+  --card: oklch(1 0 0);
+  --card-foreground: var(--foreground);
+  --popover: oklch(1 0 0);
+  --popover-foreground: var(--foreground);
+
+  /* Acento neutro slate/azul-petróleo */
+  --primary: oklch(0.32 0.04 250);
+  --primary-foreground: oklch(0.99 0 0);
+
+  --secondary: oklch(0.96 0.004 250);
+  --secondary-foreground: var(--foreground);
+  --muted: oklch(0.96 0.004 250);
+  --muted-foreground: oklch(0.5 0.01 250);
+  --accent: oklch(0.95 0.005 250);
+  --accent-foreground: var(--foreground);
+
+  --destructive: oklch(0.55 0.2 25);
+  --destructive-foreground: oklch(1 0 0);
+
+  --border: var(--line);
+  --input: oklch(0.18 0.01 250 / 14%);
+  --ring: oklch(0.42 0.06 250);
+
+  /* Tokens semânticos extras */
+  --admin-success: oklch(0.62 0.14 150);
+  --admin-warning: oklch(0.74 0.14 75);
+  --admin-info: oklch(0.55 0.12 240);
+  --admin-sidebar: oklch(0.985 0.002 250);
+  --admin-sidebar-fg: oklch(0.25 0.01 250);
+  --admin-sidebar-active: oklch(0.94 0.005 250);
+  --admin-sidebar-border: oklch(0.18 0.01 250 / 8%);
+  --admin-shadow-sm: 0 1px 2px 0 oklch(0.18 0.01 250 / 5%);
+  --admin-shadow-md: 0 4px 12px -2px oklch(0.18 0.01 250 / 8%);
+}
+
+[data-admin="true"].dark,
+.dark [data-admin="true"] {
+  --background: oklch(0.14 0.005 250);
+  --foreground: oklch(0.96 0.003 250);
+  --ink: oklch(0.96 0.003 250);
+  --ink-soft: oklch(0.7 0.01 250);
+
+  --surface: oklch(0.17 0.006 250);
+  --surface-2: oklch(0.2 0.007 250);
+  --line: oklch(1 0 0 / 8%);
+
+  --card: oklch(0.17 0.006 250);
+  --card-foreground: var(--foreground);
+  --popover: oklch(0.18 0.006 250);
+  --popover-foreground: var(--foreground);
+
+  --primary: oklch(0.85 0.02 250);
+  --primary-foreground: oklch(0.16 0.01 250);
+
+  --secondary: oklch(0.21 0.008 250);
+  --secondary-foreground: var(--foreground);
+  --muted: oklch(0.21 0.008 250);
+  --muted-foreground: oklch(0.68 0.01 250);
+  --accent: oklch(0.23 0.008 250);
+  --accent-foreground: var(--foreground);
+
+  --destructive: oklch(0.6 0.22 25);
+  --destructive-foreground: oklch(0.98 0 0);
+
+  --border: var(--line);
+  --input: oklch(1 0 0 / 12%);
+  --ring: oklch(0.7 0.04 250);
+
+  --admin-sidebar: oklch(0.15 0.005 250);
+  --admin-sidebar-fg: oklch(0.85 0.005 250);
+  --admin-sidebar-active: oklch(0.22 0.008 250);
+  --admin-sidebar-border: oklch(1 0 0 / 6%);
+  --admin-shadow-sm: 0 1px 2px 0 oklch(0 0 0 / 30%);
+  --admin-shadow-md: 0 6px 16px -4px oklch(0 0 0 / 40%);
+}
+
+@layer utilities {
+  .admin-shell {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+  }
+  .admin-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--admin-shadow-sm);
+  }
+  .admin-kpi-up { color: var(--admin-success); }
+  .admin-kpi-down { color: var(--destructive); }
+}
+
+
+/* Quantum Lovable - watermark removal */
+#lovable-badge {
+  display: none !important;
+}
+a[href*="lovable.dev"],
+iframe[src*="lovable.dev"],
+div[style*="Edit with Lovable"],
+.lovable-badge {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  position: absolute !important;
+  z-index: -9999 !important;
+}
+
+
+/* ---------- Editor visual inline (admin) ---------- */
+.wh-edit-mode .wh-editable {
+  position: relative;
+  outline: 1px dashed transparent;
+  outline-offset: 2px;
+  border-radius: 4px;
+  transition: outline-color 120ms ease, background-color 120ms ease;
+  cursor: text;
+}
+.wh-edit-mode .wh-editable:hover {
+  outline-color: hsl(var(--primary, 230 90% 60%) / 0.6);
+  background-color: hsl(var(--primary, 230 90% 60%) / 0.06);
+}
+.wh-edit-mode .wh-editable-text:focus {
+  outline: 2px solid hsl(var(--primary, 230 90% 60%));
+  outline-offset: 2px;
+  background-color: hsl(var(--primary, 230 90% 60%) / 0.08);
+}
+.wh-edit-mode .wh-editable-image {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+.wh-edit-mode .wh-editable-image > img {
+  display: block;
+}
+.wh-edit-mode .wh-editable-image__btn {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  opacity: 0;
+  transition: opacity 120ms ease;
+  z-index: 5;
+}
+.wh-edit-mode .wh-editable-image:hover .wh-editable-image__btn { opacity: 1; }
+.wh-edit-mode .wh-section-frame {
+  position: relative;
+  outline: 1px solid transparent;
+  outline-offset: -1px;
+}
+.wh-edit-mode .wh-section-frame:hover { outline-color: hsl(var(--primary, 230 90% 60%) / 0.4); }
+.wh-edit-mode .wh-section-frame[data-selected="true"] { outline-color: hsl(var(--primary, 230 90% 60%)); }
+.wh-edit-mode .wh-section-frame__badge {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  z-index: 50;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: hsl(var(--primary, 230 90% 60%));
+  color: white;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+}
+.wh-edit-mode .wh-section-frame:hover .wh-section-frame__badge,
+.wh-edit-mode .wh-section-frame[data-selected="true"] .wh-section-frame__badge { opacity: 1; }
+
+/* Esconde scrollbar em carrosséis horizontais (galeria de vídeos). */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }

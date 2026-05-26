@@ -1,0 +1,1 @@
+DROP POLICY IF EXISTS "Public reads fiscal company" ON public.fiscal_company;

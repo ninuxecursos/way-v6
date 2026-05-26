@@ -1,0 +1,1 @@
+UPDATE site_settings SET value = jsonb_set(value, '{faviconUrl}', '"/favicon.png"') WHERE key='branding';
